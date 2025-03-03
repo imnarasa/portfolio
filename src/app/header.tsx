@@ -46,7 +46,7 @@ export default function Header() {
                     target="_blank"
                     rel="noopener noreferrer"
                     >
-      <Button className="hidden md:block bg-black text-white hover:bg-yellow-500">Download CV</Button>
+      <Button className="hidden md:block bg-black text-white rounded-full hover:bg-yellow-500">Download CV</Button>
       </Link>
       {/* Mobile Menu Button */}
       <Button className="md:hidden lg:hidden bg-inherit text-black hover:text-yellow-500"  onClick={() => setIsOpen(true)}>
@@ -106,7 +106,7 @@ export default function Header() {
                     rel="noopener noreferrer"
                     >
         <Button 
-          className=" bg-black text-white hover:bg-yellow-500"
+          className=" bg-black text-white rounded-full hover:bg-yellow-500"
           onClick={() => setIsOpen(false)}
         >
           Download CV

@@ -60,7 +60,7 @@ export default function Footer() {
           {/* Brand and Social Links */}
           <motion.div variants={itemVariants} className="space-y-6">
             <div className="space-y-2">
-              <h2 className="text-2xl font-bold">NARASA.</h2>
+              <h2 className="text-2xl font-bold">NARASARAJ</h2>
               <p className="text-sm text-gray-400">Chennai India (IND)</p>
             </div>
             <div className="flex space-x-4">
